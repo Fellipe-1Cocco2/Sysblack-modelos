@@ -1,0 +1,24 @@
+@import url("./variables.css");
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color1);
+}
+
+.main-texts {
+  display: flex;
+  flex-direction: column;
+  color: var(--color3);
+  gap: 1rem;
+}
+
+.texts-title {
+  font-size: 3rem;
+}
+
+.texts-paragraph {
+  font-size: 1.5rem;
+}
