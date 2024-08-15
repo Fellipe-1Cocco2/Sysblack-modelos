@@ -3,6 +3,7 @@
   --color1: #000000;
   --color2: #00ff00;
   --color3: #ffffff;
+  --color4: #0e0e0e;
   --font: "Comfortaa", sans-serif;
 }
 
@@ -12,5 +13,5 @@ body {
   background-repeat: repeat;
   font-family: var(--font);
   display: grid;
-  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-rows: 10vh 85vh 5vh;
 }

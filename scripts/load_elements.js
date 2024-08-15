@@ -1,6 +1,6 @@
 // Carregar Footer
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("./pages/footer.html")
+  fetch("../pages/footer.html")
     .then((response) => response.text())
     .then((html) => {
       document.getElementById("footer").innerHTML = html;
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Carregar Header
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("./pages/header.html")
+  fetch("../pages/header.html")
     .then((response) => response.text())
     .then((html) => {
       document.getElementById("header").innerHTML = html;

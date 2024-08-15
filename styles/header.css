@@ -12,11 +12,17 @@
 .header-link {
   text-decoration: none;
   color: var(--color2);
+  position: relative;
+  transition: transform 0.3s ease-in-out;
 }
 
 .link-logo {
-  border-radius: 50%;
-  width: 5rem;
+  width: 10rem;
   font-size: 1.25rem;
   padding: 0 5rem;
+}
+
+.header-link:hover {
+  transform: translateY(-5px);
+  transition-delay: 0.1s;
 }
